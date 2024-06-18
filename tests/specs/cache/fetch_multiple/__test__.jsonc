@@ -1,4 +1,0 @@
-{
-  "args": "cache --reload --check=all test.ts other.ts",
-  "output": "fetch_multiple.out"
-}

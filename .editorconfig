@@ -9,9 +9,8 @@ charset = utf-8
 trim_trailing_whitespace = true
 
 [*.out] # make editor neutral to .out files
-insert_final_newline = unset
-trim_trailing_whitespace = unset
+insert_final_newline = false
+trim_trailing_whitespace = false
 
-[tests/node_compat/test/**]
-insert_final_newline = unset
-trim_trailing_whitespace = unset
+[*.py]
+indent_size = 4
