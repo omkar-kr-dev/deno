@@ -1,4 +1,0 @@
-{
-  "args": "info --json main.ts",
-  "output": "main.out"
-}

@@ -1,9 +1,0 @@
-{
-  "envs": {
-    "DENO_FUTURE": "1"
-  },
-  "tempDir": true,
-  "args": "install -A -L debug",
-  "output": "main.out",
-  "cwd": "subdir"
-}

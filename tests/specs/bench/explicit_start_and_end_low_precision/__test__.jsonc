@@ -1,5 +1,0 @@
-{
-  "args": "bench --quiet -A main.bench.ts",
-  "output": "main.bench.out",
-  "flaky": true
-}

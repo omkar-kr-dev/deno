@@ -1,4 +1,0 @@
-error: Failed to parse compilerOptions
-
-Caused by:
-    invalid type: integer `1234`, expected a string
