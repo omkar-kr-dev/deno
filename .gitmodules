@@ -1,14 +1,16 @@
-[submodule "chromium_build"]
-	path = core/libdeno/build
-	url = https://github.com/denoland/chromium_build.git
-[submodule "deno_std"]
-	path = js/deps/https/deno.land/std
-	url = https://github.com/denoland/deno_std.git
-[submodule "deno_third_party"]
-	path = third_party
-	url = https://github.com/denoland/deno_third_party.git
-[submodule "typescript"]
-	path = deno_typescript/typescript
-	url = https://github.com/microsoft/TypeScript.git
-	fetchRecurseSubmodules = false
+[submodule "tests/util/std"]
+	path = tests/util/std
+	url = https://github.com/denoland/deno_std
+	shallow = true
+[submodule "tests/wpt/suite"]
+	path = tests/wpt/suite
+	url = https://github.com/web-platform-tests/wpt.git
+	shallow = true
+[submodule "tests/node_compat/runner/suite"]
+	path = tests/node_compat/runner/suite
+	url = https://github.com/denoland/node_test.git
+	shallow = true
+[submodule "cli/bench/testdata/lsp_benchdata"]
+	path = cli/bench/testdata/lsp_benchdata
+	url = https://github.com/denoland/deno_lsp_benchdata.git
 	shallow = true
